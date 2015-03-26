@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DBModelStoreContainer">
+          <EntitySet Name="FILHO" EntityType="DBModel.Store.FILHO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PESSOA" EntityType="DBModel.Store.PESSOA" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__FILHO__COD_PESSO__145C0A3F" Association="DBModel.Store.FK__FILHO__COD_PESSO__145C0A3F">
+            <End Role="PESSOA" EntitySet="PESSOA" />
+            <End Role="FILHO" EntitySet="FILHO" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="FILHO">
+          <Key>
+            <PropertyRef Name="COD_FILHO" />
+          </Key>
+          <Property Name="COD_FILHO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NOME_FILHO" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="SEXO_FILHO" Type="char" MaxLength="1" />
+          <Property Name="COD_PESSOA" Type="int" />
+        </EntityType>
+        <EntityType Name="PESSOA">
+          <Key>
+            <PropertyRef Name="COD_PESSOA" />
+          </Key>
+          <Property Name="COD_PESSOA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NOME_PESSOA" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="SALARIO_PESSOA" Type="decimal" Precision="9" Scale="2" />
+        </EntityType>
+        <Association Name="FK__FILHO__COD_PESSO__145C0A3F">
+          <End Role="PESSOA" Type="DBModel.Store.PESSOA" Multiplicity="0..1" />
+          <End Role="FILHO" Type="DBModel.Store.FILHO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PESSOA">
+              <PropertyRef Name="COD_PESSOA" />
+            </Principal>
+            <Dependent Role="FILHO">
+              <PropertyRef Name="COD_PESSOA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="PessoaSet" EntityType="DBModel.Pessoa" />
+          <EntitySet Name="FilhoeSet" EntityType="DBModel.Filho" />
+          <AssociationSet Name="FK__FILHO__COD_PESSO__145C0A3F" Association="DBModel.FK__FILHO__COD_PESSO__145C0A3F">
+            <End Role="Pessoa" EntitySet="PessoaSet" />
+            <End Role="FILHO" EntitySet="FilhoeSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Pessoa">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Salario" Type="Decimal" Precision="9" Scale="2" />
+          <NavigationProperty Name="Filhos" Relationship="DBModel.FK__FILHO__COD_PESSO__145C0A3F" FromRole="Pessoa" ToRole="FILHO" />
+        </EntityType>
+        <EntityType Name="Filho">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Nome" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Sexo" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Type="Int32" Name="IdPessoa" />
+          <NavigationProperty Name="Pessoa" Relationship="DBModel.FK__FILHO__COD_PESSO__145C0A3F" FromRole="FILHO" ToRole="Pessoa" />
+        </EntityType>
+        <Association Name="FK__FILHO__COD_PESSO__145C0A3F">
+          <End Type="DBModel.Pessoa" Role="Pessoa" Multiplicity="0..1" />
+          <End Type="DBModel.Filho" Role="FILHO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FILHO">
+              <PropertyRef Name="IdPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBModelStoreContainer" CdmEntityContainer="DBEntities">
+          <EntitySetMapping Name="PessoaSet">
+            <EntityTypeMapping TypeName="DBModel.Pessoa">
+              <MappingFragment StoreEntitySet="PESSOA">
+                <ScalarProperty Name="Id" ColumnName="COD_PESSOA" />
+                <ScalarProperty Name="Nome" ColumnName="NOME_PESSOA" />
+                <ScalarProperty Name="Salario" ColumnName="SALARIO_PESSOA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FilhoeSet">
+            <EntityTypeMapping TypeName="DBModel.Filho">
+              <MappingFragment StoreEntitySet="FILHO">
+                <ScalarProperty Name="IdPessoa" ColumnName="COD_PESSOA" />
+                <ScalarProperty Name="Sexo" ColumnName="SEXO_FILHO" />
+                <ScalarProperty Name="Nome" ColumnName="NOME_FILHO" />
+                <ScalarProperty Name="Id" ColumnName="COD_FILHO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,8 @@
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\bin\Debug\009-EntityFramework.exe.config
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\bin\Debug\009-EntityFramework.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\bin\Debug\009-EntityFramework.pdb
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\bin\Debug\EntityFramework.dll
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\bin\Debug\EntityFramework.xml
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\obj\Debug\009-EntityFramework.csprojResolveAssemblyReference.cache
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\obj\Debug\009-EntityFramework.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\009-EntityFramework\obj\Debug\009-EntityFramework.pdb

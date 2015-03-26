@@ -1,0 +1,5 @@
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\007-xxxSqlParameter\bin\Debug\007-xxxSqlParameter.exe.config
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\007-xxxSqlParameter\bin\Debug\007-xxxSqlParameter.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\007-xxxSqlParameter\bin\Debug\007-xxxSqlParameter.pdb
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\007-xxxSqlParameter\obj\Debug\007-xxxSqlParameter.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\007-xxxSqlParameter\obj\Debug\007-xxxSqlParameter.pdb

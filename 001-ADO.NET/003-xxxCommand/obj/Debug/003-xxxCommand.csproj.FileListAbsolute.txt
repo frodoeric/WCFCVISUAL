@@ -1,0 +1,1 @@
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.exe.config

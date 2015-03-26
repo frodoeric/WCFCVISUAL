@@ -1,0 +1,5 @@
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\004-xxxComand_ExecuteScalar\bin\Debug\004-xxxComand_ExecuteScalar.exe.config
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\004-xxxComand_ExecuteScalar\bin\Debug\004-xxxComand_ExecuteScalar.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\004-xxxComand_ExecuteScalar\bin\Debug\004-xxxComand_ExecuteScalar.pdb
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\004-xxxComand_ExecuteScalar\obj\Debug\004-xxxComand_ExecuteScalar.exe
+c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\004-xxxComand_ExecuteScalar\obj\Debug\004-xxxComand_ExecuteScalar.pdb

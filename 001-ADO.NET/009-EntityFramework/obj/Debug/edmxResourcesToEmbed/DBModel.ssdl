@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DBModelStoreContainer">
+    <EntitySet Name="FILHO" EntityType="DBModel.Store.FILHO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PESSOA" EntityType="DBModel.Store.PESSOA" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__FILHO__COD_PESSO__145C0A3F" Association="DBModel.Store.FK__FILHO__COD_PESSO__145C0A3F">
+      <End Role="PESSOA" EntitySet="PESSOA" />
+      <End Role="FILHO" EntitySet="FILHO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="FILHO">
+    <Key>
+      <PropertyRef Name="COD_FILHO" />
+    </Key>
+    <Property Name="COD_FILHO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NOME_FILHO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SEXO_FILHO" Type="char" MaxLength="1" />
+    <Property Name="COD_PESSOA" Type="int" />
+  </EntityType>
+  <EntityType Name="PESSOA">
+    <Key>
+      <PropertyRef Name="COD_PESSOA" />
+    </Key>
+    <Property Name="COD_PESSOA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NOME_PESSOA" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SALARIO_PESSOA" Type="decimal" Precision="9" Scale="2" />
+  </EntityType>
+  <Association Name="FK__FILHO__COD_PESSO__145C0A3F">
+    <End Role="PESSOA" Type="DBModel.Store.PESSOA" Multiplicity="0..1" />
+    <End Role="FILHO" Type="DBModel.Store.FILHO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PESSOA">
+        <PropertyRef Name="COD_PESSOA" />
+      </Principal>
+      <Dependent Role="FILHO">
+        <PropertyRef Name="COD_PESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
