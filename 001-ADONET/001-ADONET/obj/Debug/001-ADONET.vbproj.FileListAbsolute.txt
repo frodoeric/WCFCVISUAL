@@ -1,0 +1,1 @@
+c:\users\administrator\documents\visual studio 2012\Projects\001-ADONET\001-ADONET\bin\Debug\001-ADONET.exe.config
