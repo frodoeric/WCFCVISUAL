@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\016-WebAPIClient.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\016-WebAPIClient.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\016-WebAPIClient.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\obj\Debug\016-WebAPIClient.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\obj\Debug\016-WebAPIClient.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\016-WebAPIClient\obj\Debug\016-WebAPIClient.pdb

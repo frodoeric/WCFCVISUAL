@@ -1,5 +1,6 @@
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.exe.config
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.pdb
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\obj\Debug\003-xxxCommand.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\003-xxxCommand\obj\Debug\003-xxxCommand.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\bin\Debug\003-xxxCommand.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\obj\Debug\003-xxxCommandExecuteNonQuery.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\obj\Debug\003-xxxCommand.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\003-xxxCommand\obj\Debug\003-xxxCommand.pdb

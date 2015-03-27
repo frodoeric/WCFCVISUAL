@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\bin\Debug\017-WindowsService.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\bin\Debug\017-WindowsService.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\bin\Debug\017-WindowsService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\obj\Debug\017-WindowsService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\obj\Debug\017-WindowsService.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\017-WindowsService\obj\Debug\017-WindowsService.pdb

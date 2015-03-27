@@ -1,6 +1,5 @@
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.exe.config
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.exe
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.pdb
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\obj\Debug\001-ADO.NET.csprojResolveAssemblyReference.cache
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\obj\Debug\001-ADO.NET.exe
-c:\users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\001-ADO.NET\obj\Debug\001-ADO.NET.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\001-ADO.NET\bin\Debug\001-ADO.NET.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\001-ADO.NET\obj\Debug\001-ADO.NET.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\001-ADO.NET\obj\Debug\001-ADO.NET.pdb

@@ -1,5 +1,6 @@
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.exe.config
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.pdb
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\002-xxxConection\obj\Debug\002-xxxConection.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\002-xxxConection\obj\Debug\002-xxxConection.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\bin\Debug\002-xxxConection.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\obj\Debug\002-xxxConection.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\obj\Debug\002-xxxConection.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\002-xxxConection\obj\Debug\002-xxxConection.pdb

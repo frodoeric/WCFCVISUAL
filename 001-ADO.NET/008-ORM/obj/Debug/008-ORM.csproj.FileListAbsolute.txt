@@ -1,6 +1,5 @@
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.exe.config
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.pdb
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\obj\Debug\008-ORM.csprojResolveAssemblyReference.cache
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\obj\Debug\008-ORM.exe
-c:\Users\administrator\documents\visual studio 2012\Projects\001-ADO.NET\008-ORM\obj\Debug\008-ORM.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\008-ORM\bin\Debug\008-ORM.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\008-ORM\obj\Debug\008-ORM.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\001-ADO.NET\008-ORM\obj\Debug\008-ORM.pdb
