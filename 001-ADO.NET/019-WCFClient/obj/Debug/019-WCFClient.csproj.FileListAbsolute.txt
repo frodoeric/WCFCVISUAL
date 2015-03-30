@@ -1,0 +1,6 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\bin\Debug\019-WCFClient.exe.config
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\bin\Debug\019-WCFClient.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\bin\Debug\019-WCFClient.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\obj\Debug\019-WCFClient.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\obj\Debug\019-WCFClient.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\019-WCFClient\obj\Debug\019-WCFClient.pdb

@@ -1,0 +1,5 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\020-WCFClient-Task\bin\Debug\020-WCFClient-Task.exe.config
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\020-WCFClient-Task\bin\Debug\020-WCFClient-Task.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\020-WCFClient-Task\bin\Debug\020-WCFClient-Task.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\020-WCFClient-Task\obj\Debug\020-WCFClient-Task.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\020-WCFClient-Task\obj\Debug\020-WCFClient-Task.pdb

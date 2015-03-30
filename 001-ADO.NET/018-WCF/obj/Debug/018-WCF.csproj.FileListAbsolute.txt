@@ -1,0 +1,5 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\018-WCF\bin\018-WCF.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\018-WCF\bin\018-WCF.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\018-WCF\obj\Debug\018-WCF.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\018-WCF\obj\Debug\018-WCF.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\018-WCF\obj\Debug\018-WCF.pdb

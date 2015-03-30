@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7324b652-b012-4250-96e4-e06d28390351" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1360/ISomadora.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ISomadora.xsd" MetadataType="Schema" ID="6c2bd605-9968-4f8b-8e8e-3d74ab4b116c" SourceId="1" SourceUrl="http://localhost:1360/ISomadora.svc?xsd=xsd0" />
+    <MetadataFile FileName="ISomadora.disco" MetadataType="Disco" ID="51838cb7-0fdf-4e50-82d9-21ef260c4291" SourceId="1" SourceUrl="http://localhost:1360/ISomadora.svc?disco" />
+    <MetadataFile FileName="ISomadora.wsdl" MetadataType="Wsdl" ID="9a7e5d13-2ff9-4887-bf07-4b9994e7d8f4" SourceId="1" SourceUrl="http://localhost:1360/ISomadora.svc?wsdl" />
+    <MetadataFile FileName="ISomadora1.xsd" MetadataType="Schema" ID="7ce2a800-5ad0-4c45-b069-707239f6fa4c" SourceId="1" SourceUrl="http://localhost:1360/ISomadora.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

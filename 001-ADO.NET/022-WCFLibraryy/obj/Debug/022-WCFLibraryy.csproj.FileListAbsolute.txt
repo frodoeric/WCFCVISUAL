@@ -1,0 +1,5 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\022-WCFLibraryy\bin\Debug\022-WCFLibraryy.dll.config
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\022-WCFLibraryy\bin\Debug\022-WCFLibraryy.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\022-WCFLibraryy\bin\Debug\022-WCFLibraryy.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\022-WCFLibraryy\obj\Debug\022-WCFLibraryy.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\001-ADO.NET\022-WCFLibraryy\obj\Debug\022-WCFLibraryy.pdb
